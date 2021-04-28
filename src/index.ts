@@ -7,5 +7,5 @@ const s = serve({ port });
 console.log(`http://localhost:${port}/`);
 
 for await (const req of s) {
-  req.respond({ body: "Choo Choo! Welcome to your Deno app\n" });
+  req.respond({ body: "Choo Choo! Welcome the ZONE\n" });
 }
